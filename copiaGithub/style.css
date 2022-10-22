@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(1, 4, 9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.cabeca {
+  display: block;
+  background-color: rgb(22, 27, 34);
+  width: auto;
+  height: 60px;
+}
+
+.cabeca div {
+  display: inline-block;
+  padding: 0;
+}
+
+.cabeca a {
+  color: rgb(222, 222, 222);
+  text-decoration: none;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding-inline: 15px;
+}
+
+.cabeca a:hover {
+  color: rgb(91, 91, 91);
+}
+
+.cabeca div {
+  float: left;
+}
+
+.cabeca div a {
+  box-sizing: border-box;
+  width: auto;
+  padding-top: 20px;
+}
+
+.cabeca div input {
+  margin-top: 20px;
+}
+
+.logo {
+  content: url("imagens/logo.png");
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+.logo:hover {
+  content: url("imagens/logo_hover.png");
+}
+
+.sino {
+  content: url("imagens/sino.png");
+  margin-left: 0;
+}
+
+.sino:hover {
+  content: url("imagens/sino_hover.png");
+}
+
+.sapinho {
+  content: url("imagens/sapo.png");
+}
+
+.maisOpcoes {
+  content: url("imagens/maisOpcoes.png");
+}
+
+.procura {
+  border-radius: 10%;
+  background-color: rgb(13, 17, 23);
+  border-color: rgb(48, 54, 61);
+  color: rgb(48, 54, 61);
+  height: 25px;
+  width: 250px;
+  display: inline-block;
+}
+
+.procura:hover {
+  border-color: rgb(88, 166, 255);
+}
+
+/* NAV */
+nav {
+  display: block;
+  position: sticky;
+  top: 0;
+  font-size: 18px;
+  background-color: rgb(13, 17, 23);
+  color: rgb(190, 198, 205);
+  width: 350px !important;
+  height: 100vh !important;
+  float: left;
+}
+
+nav div {
+  display: block;
+  text-align: left;
+  padding: 30px 30px;
+}
+
+.hrNAV {
+  background-color: rgb(95, 106, 119);
+  border-color: rgb(95, 106, 119);
+  border-radius: 20%;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+.procuraNAV {
+  content: url("imagens/procurarNAV.png");
+  display: inline-block;
+  margin-left: 35px;
+  margin-bottom: -8px;
+}
+
+.procuraNAV:hover {
+  content: url("imagens/procurarNAV_hover.png");
+}
+
+.linkNAV {
+  text-decoration: none;
+  margin: 5px auto -50px -25px;
+  font-size: small;
+}
+
+.linkNAV a {
+  text-decoration: none;
+  color: rgb(190, 198, 205);
+  text-decoration: dashed;
+}
+
+.linkNAV a:hover {
+  background-color: rgb(61, 62, 64);
+}
+
+.sapoNAV {
+  content: url("imagens/sapo.png");
+  border-radius: 100%;
+}
+
+.inputNAV {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  display: block;
+  height: 35px;
+  width: 95%;
+}
+
+.inputNAV:hover {
+  border-color: rgb(88, 166, 255);
+}
+
+.finalNAV {
+  text-align: left;
+  display: inline;
+}
+
+.finalNAV div {
+  height: 100px;
+  margin: -30px 0 0 -30px;
+}
+
+.finalNAV div div {
+  height: 350px;
+  margin-top: auto;
+  font-size: 15px;
+  line-height: 1;
+  color: rgb(130, 133, 137);
+}
+
+/* MAIN */
+main {
+  margin-top: 0px;
+  /* margin-left: 360px; */
+  font-size: xx-large;
+  display: block;
+  float: left;
+  width: calc(100vw - 400px);
+}
+
+.botaoMain {
+  width: 18%;
+  height: 40px;
+  font-size: large;
+  padding-top: 25px;
+  border-radius: 10px;
+  border-right: 20px;
+  float: left;
+  text-align: center;
+}
+
+.botaoMain a {
+  color: rgb(222, 222, 222);
+  text-decoration: none;
+}
+
+.botaoMain:hover {
+  background-color: rgb(130, 133, 137);
+}
+
+.hrMain {
+  background-color: rgb(95, 106, 119);
+  border-color: rgb(95, 106, 119);
+  border-radius: 20%;
+  height: 1px;
+  width: 90%;
+}
+
+.imagemMain {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.feedMain {
+  background-color: rgb(22, 27, 34);
+  border: 4px solid rgb(13, 17, 23);
+  border-radius: 20px;
+  width: 800px;
+  height: 150px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  float: left;
+  display: block;
+}
+.feedMain img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  border: 2px solid black;
+}
+
+.feedMain p {
+  color: rgb(190, 198, 205);
+  font-size: 20px;
+  width: calc(100% - 50px);
+  border-left: 40px;
+}
+
+.descricaoMain {
+  background-color: rgb(22, 27, 34);
+  width: calc(100% - 100px);
+  height: 30px;
+  margin-left: 50px;
+  max-height: calc(100% - 70px);
+  display: block;
+  border: 4px solid rgb(13, 17, 23);
+  background-color: rgb(48, 54, 61);
+  border-radius: 5px;
+  color: rgb(222, 222, 222);
+  font-size: 16px;
+}
+
+.descricaoMain p{
+  margin-top: 10px;
+}
+
+.descricaoMain img {
+  width: 30px;
+  height: 30px;
+}
+/* FOOTER */
